@@ -27,7 +27,7 @@ const Navbar = ({ Logo }) => {
         {mainMenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <a href="#">{item.text}</a>
+              <a href={item.path}>{item.text}</a>
             </li>
           )
         })}
@@ -85,7 +85,7 @@ export const NavStyles = styled.nav`
 
     li {
       list-style: none;
-      font-size: 1.25rem;
+      font-size: 1.2rem;
       font-weight: 400;
       margin-left: 0;
       padding: 0.75rem 0;
