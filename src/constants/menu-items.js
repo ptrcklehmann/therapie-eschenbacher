@@ -5,19 +5,27 @@ import { FaTwitter, FaLinkedin } from "react-icons/fa"
 export const mainMenuItems = [
   {
     path: "/",
-    title: "home",
+    title: "Startseite",
   },
   {
-    path: "/about",
-    title: "about",
+    path: "/angebot",
+    title: "Angebot",
   },
   {
-    path: "/packages",
-    title: "packages",
+    path: "/systemisches-denken",
+    title: "Systemisches Denken",
   },
   {
-    path: "/contact",
-    title: "contact",
+    path: "/termine",
+    title: "Termine & Hoonorare",
+  },
+  {
+    path: "/zur-person",
+    title: "Zur Person",
+  },
+  {
+    path: "/kontakt",
+    title: "Kontakt & Impressum",
   },
 ]
 

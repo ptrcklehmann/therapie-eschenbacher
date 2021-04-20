@@ -29,11 +29,11 @@ export const BannerStyles = styled.section`
     }
 
     h1 {
-      font-size: 1.75rem;
+      font-size: 2rem;
       line-height: 1.2;
 
       span {
-        background: -webkit-linear-gradient(45deg, #f441a5, #03a9f4);
+        background: -webkit-linear-gradient(45deg, #EFD5AE, #D0A25F);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -43,7 +43,7 @@ export const BannerStyles = styled.section`
       margin-top: 0;
       margin-bottom: 2rem;
       line-height: 1.2;
-      font-size: 1.15rem;
+      font-size: 0.50rem;
 
       @media (min-width: 768px) {
         font-size: 1.35rem;
@@ -63,13 +63,13 @@ export const BannerStyles = styled.section`
       max-width: 800px;
 
       h1 {
-        font-size: 3rem;
+        font-size: 2rem;
       }
     }
 
     @media (min-width: 1200px) {
       h1 {
-        font-size: 4rem;
+        font-size: 3rem;
       }
     }
   }

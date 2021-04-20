@@ -1,14 +1,26 @@
 export const mainMenuItems = [
   {
     path: "/",
-    text: "about",
+    text: "Startseite",
   },
   {
-    path: "/",
-    text: "packages",
+    path: "/angebot",
+    text: "Angebot",
   },
   {
-    path: "/",
-    text: "contact",
+    path: "/systemisches-denken",
+    text: "Systemisches Denken",
+  },
+  {
+    path: "/termine",
+    text: "Termine & Hoonorare",
+  },
+  {
+    path: "/zur-person",
+    text: "Zur Person",
+  },
+  {
+    path: "/kontakt",
+    text: "Kontakt & Impressum",
   },
 ]

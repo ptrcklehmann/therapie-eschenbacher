@@ -49,7 +49,7 @@ body {
   font-family: "Gothic A1", sans-serif;
     color: #fff;
     /* background-color: #060c21; */
-    background: linear-gradient(45deg, #060c21, #0d0139);
+    background: linear-gradient(45deg, #EFD5AE, #D0A25F);
 }
 
 

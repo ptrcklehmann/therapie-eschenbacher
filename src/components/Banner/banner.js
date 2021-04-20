@@ -12,7 +12,7 @@ const Banner = () => {
   const { placeholderImage } = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "flames.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "hero-bg.jpeg" }) {
           childImageSharp {
             gatsbyImageData(quality: 90, width: 1920, formats: [AUTO, WEBP])
           }
@@ -46,7 +46,7 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
           >
-            It's time to make your business <span>stand out</span>
+            Systemische Therapie & Beratung in Augsburg, München, Berlin und <span>Umgebung</span>
           </motion.h1>
           <motion.p
             initial="hidden"
@@ -54,14 +54,13 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1.5 }}
           >
-            Startup is here to help you achieve your business and personal
-            goals, all through a stylish theme
+            Ich biete Ihnen in Gesprächen einen Rahmen, der eine selbstbestimmte, konstruktive und effektive Bearbeitung Ihrer Anliegen ermöglicht. Gerne berate ich Sie als Einzelperson oder auch als Paar in Fragen zu Ihrer Beziehung, Partnerschaft und Sexualität. Für Ihre beruflichen Fragen biete ich im Raum Augsburg und München ein Coaching  für Sie und Ihr Team als Beraterin oder Supervisorin. Dabei ist meine Arbeit grundlegend von einer systemischen Haltung geprägt.
           </motion.p>
           <Link to="about" smooth={true} duration={500}>
-            <span className="sr-only">Jump to about</span>
+            <span className="sr-only">Weiterlesen</span>
             <Button
-              cta="Learn More"
-              label="Banner Learn More"
+              cta="Weiterlesen"
+              label="Banner Weiterlesen"
               anchor={true}
               href="linking"
             />
