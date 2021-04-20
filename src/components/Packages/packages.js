@@ -27,7 +27,7 @@ const PackagesWrapper = styled.section`
   }
 
   h2 {
-    background: -webkit-linear-gradient(45deg, #f441a5, #03a9f4);
+    background: -webkit-linear-gradient(45deg, #46311D, #B19C74);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

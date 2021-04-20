@@ -25,7 +25,7 @@ const PackageWrapper = styled.article`
   }
 
   .content {
-    background: #051342;
+    background: #B19F77;
     color: #fff;
     text-align: center;
     padding: 1.5rem;
@@ -33,7 +33,7 @@ const PackageWrapper = styled.article`
     box-shadow: 0px 0px 22px 7px rgba(0, 0, 0, 0.25);
 
     h2 {
-      background: -webkit-linear-gradient(45deg, #f441a5, #03a9f4);
+      background: -webkit-linear-gradient(45deg, #46311D, #B19C74);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -58,7 +58,7 @@ const PackageWrapper = styled.article`
   &.not-active {
     button {
       background: transparent;
-      border: 1px solid #e609b5;
+      border: 1px solid #291701;
     }
   }
 
@@ -72,7 +72,8 @@ const PackageWrapper = styled.article`
     }
 
     .content {
-      background: #001559;
+      background: #FFF;
+      color: #46311D;
     }
 
     &::before {
@@ -82,7 +83,7 @@ const PackageWrapper = styled.article`
       right: 0px;
       bottom: -5px;
       left: 0px;
-      background: linear-gradient(to right, #fc466b, #3f5efb);
+      background: linear-gradient(to right, #46311D, #B19C74);
       z-index: -1;
       transform: skew(3deg, 3deg);
       border-radius: 4px;
