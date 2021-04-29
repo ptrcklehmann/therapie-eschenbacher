@@ -5,9 +5,9 @@ const GlobalStyles = createGlobalStyle`
     --heavyWeight: 900;
     --transMed: 0.3s;
     --transSlow: 0.5s;
-    --black: #1f1f1f;
-    --charcoal: #3e3e3e;
-    --primaryColor: #f441a5;
+    --black: #242426;
+    --charcoal: #D9D2C5;
+    --primaryColor: #242426;
     --serif: "Playfair Display", serif;
     --sansSerif: "Gothic A1", sans-serif;
     --h1: 2rem;
@@ -43,20 +43,25 @@ const GlobalStyles = createGlobalStyle`
 
 * {
     box-sizing: border-box;
+    box-sizing: inherit;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
 }
 
 body {
-  font-family: "Gothic A1", sans-serif;
-    color: #fff;
+  font-family: "Cormorant", serif;
+    color: ---black;
     /* background-color: #060c21; */
-    background: linear-gradient(45deg, #EFD5AE, #D0A25F);
+    background: linear-gradient(45deg, #F0F0F2, #F0F0F3);
 }
 
 
   .content-container {
     margin: 0 auto;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
+    text-align: right;
 
     @media (min-width: 1080px) {
       max-width: 650px;
@@ -77,11 +82,11 @@ body {
   }
 
   .section-padding {
-    padding: 100px 30px;
+    padding: 50px 10px;
   }
 
   .text-center {
-    text-align: center;
+    text-align: left;
   }
 
   .sr-only {

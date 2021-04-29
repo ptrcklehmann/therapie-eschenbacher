@@ -41,10 +41,10 @@ const TextBlockWrapper = styled.section`
   background: linear-gradient(45deg, #EFD5AE, #D0A25F);
   color: #fff;
   text-align: left;
-  padding: 60px 20px;
+  padding: 60px 10px;
 
   @media (min-width: 768px) {
-    padding: 80px 30px;
+    padding: 80px 10px;
     text-align: center;
   }
 

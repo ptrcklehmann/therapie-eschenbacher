@@ -85,14 +85,14 @@ export const NavStyles = styled.nav`
 
     li {
       list-style: none;
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: 400;
-      margin-left: 0;
-      padding: 0.75rem 0;
+      margin-left: 0rem;
+      padding: 1rem 0;
       a {
         text-decoration: none;
         text-transform: capitalize;
-        color: #fff;
+        color: #242426;
         transition: 0.3s;
 
         &.active {
@@ -102,7 +102,7 @@ export const NavStyles = styled.nav`
       &:hover {
         cursor: pointer;
         a {
-          color: #e609b5;
+          color: #D9D2C5;
         }
       }
     }
@@ -172,7 +172,7 @@ export const NavStyles = styled.nav`
       transition: none;
 
       li {
-        margin-left: 1rem;
+        margin-left: 2rem;
       }
     }
   }

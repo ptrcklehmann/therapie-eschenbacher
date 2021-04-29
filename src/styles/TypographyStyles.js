@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 import "@fontsource/gothic-a1"
+import "@fontsource/cormorant"
 
 const TypographyStyles = createGlobalStyle`
 

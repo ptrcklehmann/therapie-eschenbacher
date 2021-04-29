@@ -25,6 +25,13 @@ module.exports = {
         path: path.join(__dirname, `src`, `images`),
       },
     },
+    {
+      resolve: `@lekoarts/gatsby-theme-cara`,
+      options: {
+        // basePath defaults to `/`
+        basePath: `/sideproject`,
+      },
+    },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,

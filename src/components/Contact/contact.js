@@ -17,7 +17,7 @@ const Contact = ({ title, subtitle, id }) => {
               required
               autoComplete="off"
             />
-            <label className="label-name" for="name">
+            <label className="label-name" htmlFor="name">
               <span className="content-name">Name</span>
             </label>
           </div>
@@ -30,7 +30,7 @@ const Contact = ({ title, subtitle, id }) => {
               required
               autoComplete="off"
             />
-            <label className="label-name" for="email">
+            <label className="label-name" htmlFor="email">
               <span className="content-name">Email</span>
             </label>
           </div>
@@ -44,7 +44,7 @@ const Contact = ({ title, subtitle, id }) => {
               autoComplete="off"
               aria-label="Message"
             />
-            <label className="label-name" for="message">
+            <label className="label-name" htmlFor="message">
               <span className="content-name">Message</span>
             </label>
           </div>
@@ -64,10 +64,11 @@ const ContactWrapper = styled.section`
   .content-container {
     width: 100%;
     margin: 0 auto;
+    
 
     h2 {
       text-align: left;
-      background: -webkit-linear-gradient(45deg, #f441a5, #03a9f4);
+      background: -webkit-linear-gradient(45deg, #D9D2C5, #D9C99A);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 
@@ -77,6 +78,7 @@ const ContactWrapper = styled.section`
     }
     p {
       margin-bottom: 2rem;
+      color: #242426;
 
       @media (min-width: 768px) {
         text-align: center;
@@ -106,8 +108,8 @@ const ContactWrapper = styled.section`
         display: block;
         width: 100% !important;
         border: none;
-        background-color: #0b132e;
-        color: #fff;
+        background-color: #D9D2C5;
+        color: #242426;
         text-transform: uppercase;
         position: relative;
         box-sizing: border-box;

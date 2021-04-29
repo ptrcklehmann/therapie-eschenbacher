@@ -1,23 +1,26 @@
 import styled from "styled-components"
+import "@fontsource/cormorant/300.css"
+import "@fontsource/cormorant"
 
 export const BannerStyles = styled.section`
   .gatsby-image-wrapper {
     height: 100vh;
-    color: #fff;
+    color: #242426;
     position: relative;
   }
 
   .hero-content {
+    font-weight: 300;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
     right: 0;
-    text-align: center;
+    text-align: right;
     height: 100%;
     width: 100%;
     max-width: 400px;
-    padding: 0 20px;
+    padding: 0 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,15 +28,18 @@ export const BannerStyles = styled.section`
     margin-right: auto;
 
     @media (min-width: 768px) {
-      max-width: 650px;
+      max-width: 850px;
     }
 
     h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       line-height: 1.2;
+      background: -webkit-linear-gradient(45deg, #242426, #252e33);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
       span {
-        background: -webkit-linear-gradient(45deg, #EFD5AE, #D0A25F);
+        background: -webkit-linear-gradient(45deg, #242426, #252e33);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -44,6 +50,9 @@ export const BannerStyles = styled.section`
       margin-bottom: 2rem;
       line-height: 1.2;
       font-size: 0.50rem;
+      background: -webkit-linear-gradient(45deg, #242426, #252e33);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
       @media (min-width: 768px) {
         font-size: 1.35rem;
@@ -60,16 +69,18 @@ export const BannerStyles = styled.section`
     }
 
     @media (min-width: 768px) {
-      max-width: 800px;
+      max-width: 1060px;
 
       h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        font-weight: 400;
       }
     }
 
     @media (min-width: 1200px) {
       h1 {
-        font-size: 3rem;
+        font-size: 2rem;
+        font-weight: 400;
       }
     }
   }
